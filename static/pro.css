@@ -1,0 +1,27 @@
+body{
+  background: black;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+p{
+  color: white;
+  text-align: center;
+}
+img{
+  position: relative;
+  left: 640px;
+}
+.box{
+  border: 1px solid red;
+}
+.study{
+    border: 1px solid red;
+}
+.Experience{
+    border: 1px solid red;
+}
+.contact{
+  border: 1px solid red;
+}

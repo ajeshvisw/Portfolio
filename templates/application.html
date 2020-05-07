@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Application</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='Application.css')}}">
+  </head>
+  <body>
+    <h1>Application</h1>
+    <a href="{{url_for('news')}}"><h2>View News</h2></a>
+    <a href="{{url_for('about')}}"><h2>about</h2></a>
+    <a href="{{url_for('pro')}}"><h2>Portfolio </h2></a>
+    <div class="form">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" > <br><br>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname"> <br><br>
+      <input type="submit" name="" value="submit" class="submit">
+    </div>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+body{
+  background: black;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+img{
+  position:absolute;
+  left: 150px;
+  top: 150px;
+}
+.move{
+  width: 550px;
+  height: 550px;
+  border: 1px solid white;
+  position:absolute;
+  left: 750px;
+}
+p{
+  color: white;
+}
